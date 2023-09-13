@@ -4,7 +4,7 @@
  <title>Gesko</title>
  <link href="https://aenaliph.github.io/noon/atom.xml" rel="self"/>
  <link href="https://aenaliph.github.io/noon/"/>
- <updated>2023-09-13T11:39:30+02:00</updated>
+ <updated>2023-09-13T11:43:00+02:00</updated>
  <id>https://aenaliph.github.io</id>
  <author>
    <name>gesko</name>
@@ -34,15 +34,15 @@
 
 &lt;p&gt;The file opens correctly in &lt;em&gt;vim&lt;/em&gt; as well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_vim_mac.png&quot; alt=&quot;urdu_vim_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_vim_mac.png&quot; alt=&quot;urdu_vim_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set nu&lt;/code&gt; to display line numbers as usual.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_setnu_mac.png&quot; alt=&quot;urdu_setnu_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_setnu_mac.png&quot; alt=&quot;urdu_setnu_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:syntax on&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set syntax=whitespace&lt;/code&gt; to highlight whitespaces. This helps when debugging for space issues in Urdu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -50,19 +50,19 @@
 
 &lt;p&gt;We assume that we &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt; into a remote Ubuntu machine for this from a MacOS terminal. The bash based shell seems to work fine when displaying output of the file.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_terminal_ubuntu.png&quot; alt=&quot;urdu_terminal_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_terminal_ubuntu.png&quot; alt=&quot;urdu_terminal_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But &lt;em&gt;vim&lt;/em&gt; seems to have rendering issues now. Notice some of the characters are not joined properly. What changed? We still have the same Terminal emulator.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_vim_ubuntu.png&quot; alt=&quot;urdu_vim_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_vim_ubuntu.png&quot; alt=&quot;urdu_vim_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Until a fix is found use &lt;em&gt;nano&lt;/em&gt; instead. Like so to display with line numbers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nano -l urdu-test.txt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_nano_ubuntu.png&quot; alt=&quot;urdu_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_nano_ubuntu.png&quot; alt=&quot;urdu_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To display whitespace in nano, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-P&lt;/code&gt; to toggle where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-&lt;/code&gt; refers to a meta key – on Macos keyboards understood to be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;esc&lt;/code&gt; key. For Linux keyboards this is usually the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alt&lt;/code&gt; key.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//noon/assets/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//noon/assets/images/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
