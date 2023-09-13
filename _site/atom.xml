@@ -4,13 +4,68 @@
  <title>Gesko</title>
  <link href="https://aenaliph.github.io/noon/atom.xml" rel="self"/>
  <link href="https://aenaliph.github.io/noon/"/>
- <updated>2023-09-12T13:11:24+02:00</updated>
+ <updated>2023-09-13T03:51:18+02:00</updated>
  <id>https://aenaliph.github.io</id>
  <author>
    <name>gesko</name>
    <email>your-email@email.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Hacks for Urdu</title>
+   <link href="https://aenaliph.github.io/noon/2023/09/12/urdu-script"/>
+   <updated>2023-09-12T00:00:00+02:00</updated>
+   <id>https://aenaliph.github.io/2023/09/12/urdu-script</id>
+   <content type="html">&lt;p&gt;This document is meant to record technology related issues faced when working with Urdu data. Our primary work environments are MacOS and Ubuntu (remote) based. We intend to document solutions and workarounds discovered.&lt;/p&gt;
+
+&lt;h2 id=&quot;urdu-display-and-rendering-on-terminal-vim-nano-in-macos-and-ubuntu&quot;&gt;Urdu Display and Rendering on Terminal, Vim, Nano in MacOS and Ubuntu&lt;/h2&gt;
+
+&lt;p&gt;We take some sample text (reproduced below) from &lt;a href=&quot;https://urdu.siasat.com/news/مراقش-زلزلہ-مہلوکین-کی-تعداد-2ہزار-سے-م-1491628/&quot;&gt;Siasat Urdu&lt;/a&gt; and create a sample file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;urdu.sample.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;::: {dir=”rtl”}
+مراقش : زلزلہ مہلوکین کی تعداد 2ہزار سے متجاوز، 3روزہ سوگ کا اعلان رباط : مراقش میں جمعہ کی شب آئے شدید زلزلے کے نتیجے میں اموات کی تعداد دو ہزار سے تجاوز کر گئی ہے۔ حکام نے ہلاکتوں میں اضافے کا خدشہ ظاہر کیا ہے۔امریکی خبر رساں ادارے اے پی کے مطابق وزارت داخلہ نے کہا ہے کہ کم از کم دو ہزاور اور 12 افراد ہلاک اور دو ہزار 59 زخمی ہوئے ہیں جبکہ 14 سو سے زیادہ افراد کی حالت تشویشناک ہے۔
+:::&lt;/p&gt;
+
+&lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
+&lt;p&gt;On MacoS the  &lt;em&gt;zsh&lt;/em&gt; based &lt;em&gt;shell&lt;/em&gt; is able to display Urdu correctly from the terminal. See example below for the cat command:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_terminal_mac.png&quot; alt=&quot;urdu_terminal_mac.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The file opens correctly in &lt;em&gt;vim&lt;/em&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_vim_mac.png&quot; alt=&quot;urdu_vim_mac.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set nu&lt;/code&gt; to display line numbers as usual.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_setnu_mac.png&quot; alt=&quot;urdu_setnu_mac.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:syntax on&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set syntax=whitespace&lt;/code&gt; to highlight whitespaces. This helps when debugging for space issues in Urdu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h3&gt;
+
+&lt;p&gt;We assume that we &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt; into a remote Ubuntu machine for this from a MacOS terminal. The bash based shell seems to work fine when displaying output of the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_terminal_ubuntu.png&quot; alt=&quot;urdu_terminal_ubuntu.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But &lt;em&gt;vim&lt;/em&gt; seems to have rendering issues now. Notice some of the characters are not joined properly. What changed? We still have the same Terminal emulator.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_vim_ubuntu.png&quot; alt=&quot;urdu_vim_ubuntu.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Until a fix is found use &lt;em&gt;nano&lt;/em&gt; instead. Like so to display with line numbers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nano -l urdu-test.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_nano_ubuntu.png&quot; alt=&quot;urdu_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To display whitespace in nano, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-P&lt;/code&gt; to toggle where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-&lt;/code&gt; refers to a meta key – on Macos keyboards understood to be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;esc&lt;/code&gt; key. For Linux keyboards this is usually the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alt&lt;/code&gt; key.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Difference between font formats</title>

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hacks for Urdu"
 bibliography: ../_bibliography/file_skeleton.json
 reference-section-title: References
@@ -17,19 +18,19 @@ We take some sample text (reproduced below) from [Siasat Urdu](https://urdu.sias
 ### MacOS 
 On MacoS the  _zsh_ based _shell_ is able to display Urdu correctly from the terminal. See example below for the cat command: 
 
-![urdu_terminal_mac.png](../_images/urdu_terminal_mac.png)
+![urdu_terminal_mac.png](../assets/urdu_terminal_mac.png)
 
 The file opens correctly in _vim_ as well. 
 
-![urdu_vim_mac.png](../_images/urdu_vim_mac.png)
+![urdu_vim_mac.png](../assets/urdu_vim_mac.png)
 
 You can use `:set nu` to display line numbers as usual. 
 
-![urdu_setnu_mac.png](../_images/urdu_setnu_mac.png)
+![urdu_setnu_mac.png](../assets/urdu_setnu_mac.png)
 
 You can use `:syntax on` followed by `:set syntax=whitespace` to highlight whitespaces. This helps when debugging for space issues in Urdu. 
 
-![urdu_space_mac.png](../_images/urdu_space_mac.png)
+![urdu_space_mac.png](../assets/urdu_space_mac.png)
 
 ---
 
@@ -37,17 +38,17 @@ You can use `:syntax on` followed by `:set syntax=whitespace` to highlight white
 
 We assume that we `ssh` into a remote Ubuntu machine for this from a MacOS terminal. The bash based shell seems to work fine when displaying output of the file. 
 
-![urdu_terminal_ubuntu.png](../_images/urdu_terminal_ubuntu.png)
+![urdu_terminal_ubuntu.png](../assets/urdu_terminal_ubuntu.png)
 
 But _vim_ seems to have rendering issues now. Notice some of the characters are not joined properly. What changed? We still have the same Terminal emulator. 
 
-![urdu_vim_ubuntu.png](../_images/urdu_vim_ubuntu.png)
+![urdu_vim_ubuntu.png](../assets/urdu_vim_ubuntu.png)
 
 Until a fix is found use _nano_ instead. Like so to display with line numbers `nano -l urdu-test.txt` 
 
-![urdu_nano_ubuntu.png](../_images/urdu_nano_ubuntu.png)
+![urdu_nano_ubuntu.png](../assets/urdu_nano_ubuntu.png)
 
 To display whitespace in nano, use `M-P` to toggle where `M-` refers to a meta key -- on Macos keyboards understood to be the `esc` key. For Linux keyboards this is usually the `Alt` key. 
 
-![urdu_space_nano_ubuntu.png](../_images/urdu_space_nano_ubuntu.png)
+![urdu_space_nano_ubuntu.png](../assets/urdu_space_nano_ubuntu.png)
 
