@@ -52,3 +52,6 @@ To display whitespace in nano, use `M-P` to toggle where `M-` refers to a meta k
 
 ![urdu_space_nano_ubuntu.png](/{{ site.baseurl }}/assets/urdu_space_nano_ubuntu.png)
 
+---
+
+

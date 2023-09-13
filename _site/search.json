@@ -19,15 +19,6 @@
     } ,
   
     {
-      "title"    : "Staticman comments on a Jekyll site",
-      "description" : "Generating comments on static sites with Staticman",
-      "category" : "",
-      "tags"     : "jekyll, coding",
-      "url"      : "/noon/2019/07/23/staticman-comments-on-a-jekyll-site",
-      "date"     : "2019-07-23 00:00:00 +0200"
-    } ,
-  
-    {
       "title"    : "Creating navigation menu in Jekyll",
       "description" : "Using data folder to build Jekyll navigation",
       "category" : "",
