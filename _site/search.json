@@ -6,7 +6,7 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/noon/2023/09/12/urdu-script",
-      "date"     : "2023-09-12 00:00:00 +0200"
+      "date"     : "2023-09-12 00:00:00 +0000"
     } ,
   
     {
@@ -15,7 +15,7 @@
       "category" : "",
       "tags"     : "typography",
       "url"      : "/noon/2019/08/31/difference-between-font-formats",
-      "date"     : "2019-08-31 00:00:00 +0200"
+      "date"     : "2019-08-31 00:00:00 +0000"
     } ,
   
     {
@@ -24,7 +24,7 @@
       "category" : "",
       "tags"     : "coding, jekyll",
       "url"      : "/noon/2017/01/03/creating-navigation-menu-in-jekyll",
-      "date"     : "2017-01-03 00:00:00 +0100"
+      "date"     : "2017-01-03 00:00:00 +0000"
     } ,
   
     {
@@ -33,7 +33,7 @@
       "category" : "",
       "tags"     : "headers, jekyll, css",
       "url"      : "/noon/2017/01/02/headers-test",
-      "date"     : "2017-01-02 00:00:00 +0100"
+      "date"     : "2017-01-02 00:00:00 +0000"
     } ,
   
     {
@@ -42,7 +42,7 @@
       "category" : "",
       "tags"     : "css, coding",
       "url"      : "/noon/2014/05/12/css-hacks-you-may-not-know",
-      "date"     : "2014-05-12 00:00:00 +0200"
+      "date"     : "2014-05-12 00:00:00 +0000"
     } 
   
 ]

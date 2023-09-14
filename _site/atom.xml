@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Gesko</title>
- <link href="https://aenaliph.github.io/noon/atom.xml" rel="self"/>
- <link href="https://aenaliph.github.io/noon/"/>
- <updated>2023-09-13T11:49:03+02:00</updated>
- <id>https://aenaliph.github.io</id>
+ <title>Noon</title>
+ <link href="http://localhost:4000/noon/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/noon/"/>
+ <updated>2023-09-14T02:25:55+00:00</updated>
+ <id>http://localhost:4000</id>
  <author>
-   <name>gesko</name>
+   <name>aen</name>
    <email>your-email@email.com</email>
  </author>
 
  
  <entry>
    <title>Hacks for Urdu</title>
-   <link href="https://aenaliph.github.io/noon/2023/09/12/urdu-script"/>
-   <updated>2023-09-12T00:00:00+02:00</updated>
-   <id>https://aenaliph.github.io/2023/09/12/urdu-script</id>
+   <link href="http://localhost:4000/noon/2023/09/12/urdu-script"/>
+   <updated>2023-09-12T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2023/09/12/urdu-script</id>
    <content type="html">&lt;p&gt;This document is meant to record technology related issues faced when working with Urdu data. Our primary work environments are MacOS and Ubuntu (remote) based. We intend to document solutions and workarounds discovered.&lt;/p&gt;
 
 &lt;h2 id=&quot;urdu-display-and-rendering-on-terminal-vim-nano-in-macos-and-ubuntu&quot;&gt;Urdu Display and Rendering on Terminal, Vim, Nano in MacOS and Ubuntu&lt;/h2&gt;
@@ -44,8 +44,6 @@
 
 &lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
 &lt;h3 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h3&gt;
 
 &lt;p&gt;We assume that we &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt; into a remote Ubuntu machine for this from a MacOS terminal. The bash based shell seems to work fine when displaying output of the file.&lt;/p&gt;
@@ -64,16 +62,14 @@
 
 &lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
 </content>
  </entry>
  
  <entry>
    <title>Difference between font formats</title>
-   <link href="https://aenaliph.github.io/noon/2019/08/31/difference-between-font-formats"/>
-   <updated>2019-08-31T00:00:00+02:00</updated>
-   <id>https://aenaliph.github.io/2019/08/31/difference-between-font-formats</id>
+   <link href="http://localhost:4000/noon/2019/08/31/difference-between-font-formats"/>
+   <updated>2019-08-31T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2019/08/31/difference-between-font-formats</id>
    <content type="html">&lt;h1 id=&quot;h1&quot;&gt;h1&lt;/h1&gt;
 
 &lt;h2 id=&quot;h2&quot;&gt;h2&lt;/h2&gt;
@@ -111,9 +107,9 @@
  
  <entry>
    <title>Creating navigation menu in Jekyll</title>
-   <link href="https://aenaliph.github.io/noon/2017/01/03/creating-navigation-menu-in-jekyll"/>
-   <updated>2017-01-03T00:00:00+01:00</updated>
-   <id>https://aenaliph.github.io/2017/01/03/creating-navigation-menu-in-jekyll</id>
+   <link href="http://localhost:4000/noon/2017/01/03/creating-navigation-menu-in-jekyll"/>
+   <updated>2017-01-03T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2017/01/03/creating-navigation-menu-in-jekyll</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -128,9 +124,9 @@
  
  <entry>
    <title>Jejkyll Headers</title>
-   <link href="https://aenaliph.github.io/noon/2017/01/02/headers-test"/>
-   <updated>2017-01-02T00:00:00+01:00</updated>
-   <id>https://aenaliph.github.io/2017/01/02/headers-test</id>
+   <link href="http://localhost:4000/noon/2017/01/02/headers-test"/>
+   <updated>2017-01-02T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2017/01/02/headers-test</id>
    <content type="html">&lt;h1 id=&quot;headers-test&quot;&gt;Headers Test&lt;/h1&gt;
 &lt;p&gt;This page tests jekyll headers&lt;/p&gt;
 
@@ -156,9 +152,9 @@
  
  <entry>
    <title>CSS hacks you may not know</title>
-   <link href="https://aenaliph.github.io/noon/2014/05/12/css-hacks-you-may-not-know"/>
-   <updated>2014-05-12T00:00:00+02:00</updated>
-   <id>https://aenaliph.github.io/2014/05/12/css-hacks-you-may-not-know</id>
+   <link href="http://localhost:4000/noon/2014/05/12/css-hacks-you-may-not-know"/>
+   <updated>2014-05-12T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2014/05/12/css-hacks-you-may-not-know</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;

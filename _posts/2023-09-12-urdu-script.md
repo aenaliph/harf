@@ -32,7 +32,6 @@ You can use `:syntax on` followed by `:set syntax=whitespace` to highlight white
 
 ![urdu_space_mac.png]({{ site.baseurl }}/assets/images/urdu_space_mac.png)
 
----
 
 ### Ubuntu
 
@@ -52,6 +51,5 @@ To display whitespace in nano, use `M-P` to toggle where `M-` refers to a meta k
 
 ![urdu_space_nano_ubuntu.png]({{ site.baseurl }}/assets/images/urdu_space_nano_ubuntu.png)
 
----
 
 
