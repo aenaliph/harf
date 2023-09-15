@@ -1,8 +1,8 @@
 site: Noon
-title: Noon
-greetings: N ن ن N
-description: >-
-  language and technology under the noon day sun 
+title:  مہر نیم روز
+# greetings: Nن‌‌نN☼☀︎
+# greetings: N☼☼N
+description: language and technology under the noonday sun
 lang: en-US
 timezone:  India/Mumbai
 repo: https://github.com/aenaliph/noon # site repo [optional]
@@ -12,19 +12,17 @@ comments-enabled: false # true to enable disqus comments, false to hide them
 
 author:
   name: aen
-  bio: language and technology under the noon day sun
+  bio:
   userpicture: 
   username: # general username
   github: aenaliph # github username
   twitter: # twitter username
   mastodon: # mastodon profile (ex. mastodon.social/@my_username)
-  linkedin: # linkedin profile
-  email: your-email@email.com # email adress
+  linkedin: arafat-ahsan-50492945/
+  email: aen.aliph@gmail.com # email adress
 
 # Font Settings
-#googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
-googlewebfonts: family=Noto+Nastaliq+Urdu:wght@400;700&family=Lora:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
-
+googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
 url: "https://aenaliph.github.io" # Domain Name of host. [username].github.io for github pages
