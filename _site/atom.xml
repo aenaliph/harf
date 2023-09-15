@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>مہر نیم روز</title>
- <link href="http://localhost:4000/noon/atom.xml" rel="self"/>
- <link href="http://localhost:4000/noon/"/>
- <updated>2023-09-15T06:06:06+00:00</updated>
+ <link href="http://localhost:4000/noondaysun/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/noondaysun/"/>
+ <updated>2023-09-15T07:00:18+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>aen</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>Hacks for Urdu</title>
-   <link href="http://localhost:4000/noon/2023/09/12/urdu-script"/>
+   <link href="http://localhost:4000/noondaysun/2023/09/12/urdu-script"/>
    <updated>2023-09-12T00:00:00+00:00</updated>
    <id>http://localhost:4000/2023/09/12/urdu-script</id>
    <content type="html">&lt;p&gt;This document is meant to record technology related issues faced when working with Urdu data. Our primary work environments are MacOS and Ubuntu (remote) based. We intend to document solutions and workarounds discovered.&lt;/p&gt;
@@ -30,37 +30,37 @@
 &lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
 &lt;p&gt;On MacoS the  &lt;em&gt;zsh&lt;/em&gt; based &lt;em&gt;shell&lt;/em&gt; is able to display Urdu correctly from the terminal. See example below for the cat command:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_terminal_mac.png&quot; alt=&quot;urdu_terminal_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_terminal_mac.png&quot; alt=&quot;urdu_terminal_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The file opens correctly in &lt;em&gt;vim&lt;/em&gt; as well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_vim_mac.png&quot; alt=&quot;urdu_vim_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_vim_mac.png&quot; alt=&quot;urdu_vim_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set nu&lt;/code&gt; to display line numbers as usual.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_setnu_mac.png&quot; alt=&quot;urdu_setnu_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_setnu_mac.png&quot; alt=&quot;urdu_setnu_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:syntax on&lt;/code&gt; followed by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set syntax=whitespace&lt;/code&gt; to highlight whitespaces. This helps when debugging for space issues in Urdu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_space_mac.png&quot; alt=&quot;urdu_space_mac.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ubuntu&quot;&gt;Ubuntu&lt;/h3&gt;
 
 &lt;p&gt;We assume that we &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt; into a remote Ubuntu machine for this from a MacOS terminal. The bash based shell seems to work fine when displaying output of the file.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_terminal_ubuntu.png&quot; alt=&quot;urdu_terminal_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_terminal_ubuntu.png&quot; alt=&quot;urdu_terminal_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But &lt;em&gt;vim&lt;/em&gt; seems to have rendering issues now. Notice some of the characters are not joined properly. What changed? We still have the same Terminal emulator.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_vim_ubuntu.png&quot; alt=&quot;urdu_vim_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_vim_ubuntu.png&quot; alt=&quot;urdu_vim_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Until a fix is found use &lt;em&gt;nano&lt;/em&gt; instead. Like so to display with line numbers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nano -l urdu-test.txt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_nano_ubuntu.png&quot; alt=&quot;urdu_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_nano_ubuntu.png&quot; alt=&quot;urdu_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To display whitespace in nano, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-P&lt;/code&gt; to toggle where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-&lt;/code&gt; refers to a meta key – on Macos keyboards understood to be the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;esc&lt;/code&gt; key. For Linux keyboards this is usually the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alt&lt;/code&gt; key.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/noon/assets/images/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/noondaysun/assets/images/urdu_space_nano_ubuntu.png&quot; alt=&quot;urdu_space_nano_ubuntu.png&quot; /&gt;&lt;/p&gt;
 
 </content>
  </entry>
