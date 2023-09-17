@@ -12,7 +12,8 @@ layout: default
         <h1>{{ site.title }}</h1>
     </div>
     <div class="blog-description">
-	    <h5><a href="{{ site.url }}{{ site.baseurl }}/about/" style="color: darkgray" title="About" target="_blank" rel="noopener noreferrer">{{ site.description }}</a></h5>
+	    <!-- <h5><a href="{{ site.url }}{{ site.baseurl }}/about/" style="color: darkgray" title="About" target="_blank" rel="noopener noreferrer">{{ site.description }}</a></h5> -->
+	    <a href="{{ site.url }}{{ site.baseurl }}/about/" title="About">{{ site.description }}</a>
     <div</div>
     </div>
     <br>
@@ -48,3 +49,4 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+
