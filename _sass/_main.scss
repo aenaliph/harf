@@ -352,7 +352,7 @@ time {
 }
 
 .post > h1.title {
-	font-size: x-large;
+	font-size: large;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -374,11 +374,22 @@ main {
 	flex-direction: column;
 }
 
+.blog-title {
+  display: flex;
+  justify-content: center
+}
+
+.blog-description {
+  display: flex;
+  justify-content: center
+ 
+}
 
 .flex-row-between {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	// justify-content: space-evenly;
+  justify-content: center;
 }
 
 .social-footer {

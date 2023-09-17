@@ -2,15 +2,21 @@
 layout: default
 ---
 <section id="intro">
-    <div class="flex-row-between">
+    <div class="flex-row-between"></div>
+    <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
+    <div></div>
+    </button>
+    <br>
+    </div>
+    <div class="blog-title">
         <h1>{{ site.title }}</h1>
-        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
-            <div></div>
-        </button>
     </div>
-    <div class="bio">
-	    {{ site.description }}
+    <div class="blog-description">
+	    <h5><a href="{{ site.url }}{{ site.baseurl }}/about/" style="color: darkgray" title="About" target="_blank" rel="noopener noreferrer">{{ site.description }}</a></h5>
+    <div</div>
     </div>
+    <br>
+    <br>
 
 </section>
 
