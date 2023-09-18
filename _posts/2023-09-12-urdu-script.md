@@ -11,9 +11,9 @@ This document is meant to record technology related issues faced when working wi
 
 We take some sample text (reproduced below) from [Siasat Urdu](https://urdu.siasat.com/news/مراقش-زلزلہ-مہلوکین-کی-تعداد-2ہزار-سے-م-1491628/) and create a sample file `urdu.sample.txt`
 
-::: {dir="rtl"}
+<span style="font-family:Gulzar; font-size:1;">
 مراقش : زلزلہ مہلوکین کی تعداد 2ہزار سے متجاوز، 3روزہ سوگ کا اعلان رباط : مراقش میں جمعہ کی شب آئے شدید زلزلے کے نتیجے میں اموات کی تعداد دو ہزار سے تجاوز کر گئی ہے۔ حکام نے ہلاکتوں میں اضافے کا خدشہ ظاہر کیا ہے۔امریکی خبر رساں ادارے اے پی کے مطابق وزارت داخلہ نے کہا ہے کہ کم از کم دو ہزاور اور 12 افراد ہلاک اور دو ہزار 59 زخمی ہوئے ہیں جبکہ 14 سو سے زیادہ افراد کی حالت تشویشناک ہے۔
-:::
+</span>
 
 ### MacOS 
 On MacoS the  _zsh_ based _shell_ is able to display Urdu correctly from the terminal. See example below for the cat command: 

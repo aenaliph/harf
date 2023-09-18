@@ -9,7 +9,7 @@
 }
 
 html {
-	font-size: 15px;
+	font-size: 16px;
 }
 
 #theme-toggle {
@@ -34,7 +34,9 @@ html {
 
 html,
 html[data-theme="light"] {
-	--text-font: Gulzar;
+	// --text-font: Noto Nastaliq Urdu;
+	// --text-font: Gulzar;
+	--text-font: Play;
 	--source-code-font: Source Code Pro;
 	--very-light-text-color: rgb(222, 222, 222);
 	--light-text-color: rgb(89, 183, 255);
@@ -98,7 +100,9 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-	--text-font: Gulzar;
+	// --text-font: Noto Nastaliq Urdu;
+	// --text-font: Gulzar;
+	--text-font: Play;
 	--source-code-font: Source Code Pro;
 	--very-light-text-color: #EEE;
 	--light-text-color: #c4bbf0;
@@ -159,7 +163,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: var(--text-font), monospace;
+	font-family: var(--text-font), serif;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);

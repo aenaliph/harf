@@ -4,7 +4,7 @@
  <title>حرف حیراں</title>
  <link href="http://localhost:4000/harf/atom.xml" rel="self"/>
  <link href="http://localhost:4000/harf/"/>
- <updated>2023-09-18T16:16:29+00:00</updated>
+ <updated>2023-09-18T17:06:25+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>aen</name>
@@ -23,9 +23,9 @@
 
 &lt;p&gt;We take some sample text (reproduced below) from &lt;a href=&quot;https://urdu.siasat.com/news/مراقش-زلزلہ-مہلوکین-کی-تعداد-2ہزار-سے-م-1491628/&quot;&gt;Siasat Urdu&lt;/a&gt; and create a sample file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;urdu.sample.txt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;::: {dir=”rtl”}
+&lt;p&gt;&lt;span style=&quot;font-family:Gulzar; font-size:1;&quot;&gt;
 مراقش : زلزلہ مہلوکین کی تعداد 2ہزار سے متجاوز، 3روزہ سوگ کا اعلان رباط : مراقش میں جمعہ کی شب آئے شدید زلزلے کے نتیجے میں اموات کی تعداد دو ہزار سے تجاوز کر گئی ہے۔ حکام نے ہلاکتوں میں اضافے کا خدشہ ظاہر کیا ہے۔امریکی خبر رساں ادارے اے پی کے مطابق وزارت داخلہ نے کہا ہے کہ کم از کم دو ہزاور اور 12 افراد ہلاک اور دو ہزار 59 زخمی ہوئے ہیں جبکہ 14 سو سے زیادہ افراد کی حالت تشویشناک ہے۔
-:::&lt;/p&gt;
+&lt;/span&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
 &lt;p&gt;On MacoS the  &lt;em&gt;zsh&lt;/em&gt; based &lt;em&gt;shell&lt;/em&gt; is able to display Urdu correctly from the terminal. See example below for the cat command:&lt;/p&gt;
