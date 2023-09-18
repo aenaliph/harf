@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>حرف حیراں</title>
- <link href="http://localhost:4000/harf/atom.xml" rel="self"/>
- <link href="http://localhost:4000/harf/"/>
- <updated>2023-09-18T17:06:25+00:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://aenaliph.github.io/harf/atom.xml" rel="self"/>
+ <link href="https://aenaliph.github.io/harf/"/>
+ <updated>2023-09-18T17:22:51+00:00</updated>
+ <id>https://aenaliph.github.io</id>
  <author>
    <name>aen</name>
    <email>aen.aliph@gmail.com</email>
@@ -14,18 +14,20 @@
  
  <entry>
    <title>Hacks for Urdu</title>
-   <link href="http://localhost:4000/harf/2023/09/12/urdu-script"/>
+   <link href="https://aenaliph.github.io/harf/2023/09/12/urdu-script"/>
    <updated>2023-09-12T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2023/09/12/urdu-script</id>
+   <id>https://aenaliph.github.io/2023/09/12/urdu-script</id>
    <content type="html">&lt;p&gt;This document is meant to record technology related issues faced when working with Urdu data. Our primary work environments are MacOS and Ubuntu (remote) based. We intend to document solutions and workarounds discovered.&lt;/p&gt;
 
 &lt;h2 id=&quot;urdu-display-and-rendering-on-terminal-vim-nano-in-macos-and-ubuntu&quot;&gt;Urdu Display and Rendering on Terminal, Vim, Nano in MacOS and Ubuntu&lt;/h2&gt;
 
 &lt;p&gt;We take some sample text (reproduced below) from &lt;a href=&quot;https://urdu.siasat.com/news/مراقش-زلزلہ-مہلوکین-کی-تعداد-2ہزار-سے-م-1491628/&quot;&gt;Siasat Urdu&lt;/a&gt; and create a sample file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;urdu.sample.txt&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&quot;font-family:Gulzar; font-size:1;&quot;&gt;
+&lt;p dir=&quot;rtl&quot;&gt;
+&lt;span style=&quot;font-family:Gulzar;&quot;&gt;
 مراقش : زلزلہ مہلوکین کی تعداد 2ہزار سے متجاوز، 3روزہ سوگ کا اعلان رباط : مراقش میں جمعہ کی شب آئے شدید زلزلے کے نتیجے میں اموات کی تعداد دو ہزار سے تجاوز کر گئی ہے۔ حکام نے ہلاکتوں میں اضافے کا خدشہ ظاہر کیا ہے۔امریکی خبر رساں ادارے اے پی کے مطابق وزارت داخلہ نے کہا ہے کہ کم از کم دو ہزاور اور 12 افراد ہلاک اور دو ہزار 59 زخمی ہوئے ہیں جبکہ 14 سو سے زیادہ افراد کی حالت تشویشناک ہے۔
-&lt;/span&gt;&lt;/p&gt;
+&lt;/span&gt;
+&lt;/p&gt;
 
 &lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
 &lt;p&gt;On MacoS the  &lt;em&gt;zsh&lt;/em&gt; based &lt;em&gt;shell&lt;/em&gt; is able to display Urdu correctly from the terminal. See example below for the cat command:&lt;/p&gt;
